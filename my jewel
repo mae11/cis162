@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+    
+<title>Emily Perez</title>
+    <!--marks the page title that appears on the browser title bar or tab--> 
+    <link href="mainmain.css" rel="stylesheet" />
+</head>
+    
+<body>
+<h1>Emily Perez</h1> 
+
+<nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="#">My Jewel</a>
+    </nav>
