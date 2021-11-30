@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+
+header img {
+    height: 280px;
+    min-height: 300px 
+
+}
+
+body {
+    background-color: #B7CEEC;
+    margin-left: auto;
+    margin-right: auto;   
+    max-width: 360px;
+    min-width: 10px;
+    width: 100%;
+    display: grid
+}
+
+
+nav {
+    overflow: hidden;
+    background-color: #B7CEEC;
+    font-family: fantasy;
+}
+
+nav a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 1.4em;
+    line-height: 1.8em;
+}
+
+nav a:hover {
+  color: #306754;
+}
+
+li {
+    list-style-type: none;  
+}
+
+</style>
