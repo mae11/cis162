@@ -38,8 +38,10 @@ nav a:hover {
   color: #306754;
 }
 
-li {
-    list-style-type: none;  
+nav li {
+    list-style-type: none;
+    display: inline-block
+    margin-right:-4px
 }
 
 </style>
