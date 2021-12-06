@@ -3,21 +3,25 @@
 <style>
 
 header img {
-    height: 280px;
-    min-height: 300px 
-
+    max-width: 280px;
+    min-height: 300px; 
 }
 
 body {
     background-color: #B7CEEC;
     margin-left: auto;
     margin-right: auto;   
-    max-width: 360px;
+    max-width: 300px;
     min-width: 10px;
-    width: 100%;
-    display: grid
 }
 
+body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:"header header"
+                        "form faq" 
+                        "articles aside";
+}
 
 nav {
     overflow: hidden;
@@ -31,17 +35,87 @@ nav a {
     text-decoration: none;
     display: block;
     font-size: 1.4em;
-    line-height: 1.8em;
+    line-height: .8em;
 }
 
 nav a:hover {
-  color: #306754;
+  color: white;
 }
 
 nav li {
     list-style-type: none;
-    display: inline-block
-    margin-right:-4px
+    display: inline;
+    padding: 12px 12px;
+    margin: 5px 5px; 
+    font-size: 8pt; 
+    height: 10px;
+    list-style-type: none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+article {
+    width: 45%;
+    padding: 12px 14px;
+    margin: 10px 10px; 
+    font-size: 14pt; 
+    height: 10px;
+    width:100px;
+    font-family: fantasy;
+}
+
+h1 {
+    font-size: 1em;
+    font-family: fantasy;
+}
+
+p {
+    font-size: 1em;
+    font-family: fantasy;
+    width: 75%;
+    padding: 2px auto;
+    margin: 4px 2px; 
+    height:120px;
+    width: 170px;  
+}
+
+textarea {
+    width: 75%;
+    padding: 12px 14px;
+    margin: 4px 2px; 
+    font-size: 1pt; 
+    height:80px;
+    width: 185px;    
+}
+
+article {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: left;
+}
+
+aside {
+    font size: 0.9em;
+    display: block;
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+
+    background-color: transparent;
+    display:flex;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  width: 240px;
+  padding: 5px;
 }
 
 </style>
